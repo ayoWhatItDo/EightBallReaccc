@@ -16,7 +16,7 @@ import { choice } from "./random";
 
 function EightBall({ answers = defaultAnswers }) {
   const [answer, setAnswer] = useState({
-    msg: "Think of a Question.",
+    msg: "Think of a Question...But don't hurt yourself",
     color: "black",
   });
 
